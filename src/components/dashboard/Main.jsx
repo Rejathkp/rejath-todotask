@@ -28,7 +28,7 @@ function Main(props) {
 			setTaskList(tasks.filter((task) => task.emailId === user.email));
 		};
 		getUser();
-	}, [fetchFlag]);
+	}, [fetchFlag, user]);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
