@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rejath-todotask/static/css/main.c2cc41a6.css",
+    "main.js": "/rejath-todotask/static/js/main.22ab52d2.js",
+    "static/media/Illustration Export.png": "/rejath-todotask/static/media/Illustration Export.71539d70c65968ef3e6b.png",
+    "index.html": "/rejath-todotask/index.html",
+    "main.c2cc41a6.css.map": "/rejath-todotask/static/css/main.c2cc41a6.css.map",
+    "main.22ab52d2.js.map": "/rejath-todotask/static/js/main.22ab52d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cc41a6.css",
+    "static/js/main.22ab52d2.js"
+  ]
+}
