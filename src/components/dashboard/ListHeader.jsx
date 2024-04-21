@@ -13,7 +13,6 @@ const ListHeader = (props) => {
   const { searchItem, setSearchItem, filterBy, setFilterBy } = props;
   return (
     <>
-      <h2> TODO LIST</h2>
       <div className="header-container">
         <div className="search-container">
           <input
