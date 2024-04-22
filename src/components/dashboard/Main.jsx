@@ -7,8 +7,6 @@ import { db, userCollectionref } from '../../firebase';
 import { addDoc, deleteDoc, doc, getDocs, updateDoc } from 'firebase/firestore';
 import { UserAuth } from '../../context/AuthContext';
 
-let uniqueId = 1;
-
 function Main(props) {
 	const { user } = UserAuth();
 	const [title, setTitle] = useState('');

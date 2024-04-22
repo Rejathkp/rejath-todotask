@@ -1,16 +1,11 @@
 import React from "react";
-import Checkbox from "react-custom-checkbox";
-import { FiCheck } from "react-icons/fi";
 import { CiHeart } from "react-icons/ci";
 import { GoTrash } from "react-icons/go";
-import {
-  IoIosCheckmarkCircleOutline,
-  IoIosCloseCircleOutline,
-} from "react-icons/io";
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { LiaCircleSolid } from "react-icons/lia";
 
 const List = (props) => {
-  const { items, removeItem, editItem, completeTask, updateIsFavorite } = props;
+  const { items, removeItem, completeTask, updateIsFavorite } = props;
   return (
     <div className="task-lists">
       {items.map((item) => {
